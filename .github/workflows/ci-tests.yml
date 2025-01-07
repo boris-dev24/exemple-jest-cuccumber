@@ -11,7 +11,7 @@
  runs-on: ubuntu-latest
  steps:-name: Cloner le code source
  uses: actions/checkout@v3
-      - name:  Configuration de Node.js
+      - name:  Configurations de Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'-name: Installation des dépendances
