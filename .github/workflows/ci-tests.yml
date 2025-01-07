@@ -1,0 +1,20 @@
+ name: CI -Exécution des tests Jest
+ # Déclencheurs du pipeline
+ on:
+ push:
+ branches: [master]
+ pull_request:
+ branches: [master]
+ # Définition du job
+ jobs:
+ test:
+ runs-on: ubuntu-latest
+ steps:-name: Cloner le code source
+ uses: actions/checkout@v3
+      - name:  Configuration de Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'-name: Installation des dépendances
+ run: npm install
+      - name:  Exécution des tests Jest
+        run: npm test

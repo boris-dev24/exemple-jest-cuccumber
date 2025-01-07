@@ -1,0 +1,19 @@
+{
+    "name": "reduction-boutique-en-ligne",
+    "version": "1.0.0",
+    "description": "Module de calcul des réductions dans une boutique en ligne",
+    "main": "reduction.js",
+    "scripts": {
+        "test": "jest",
+        "test-cucumber": "cucumber-js"
+    },
+    "dependencies": {
+        "@cucumber/cucumber": "^7.0.0",
+        "jest": "^29.7.0"
+    },
+    "devDependencies": {
+        "assert": "^2.0.0"
+    },
+    "author": "",
+    "license": "ISC"
+}
