@@ -1,0 +1,1 @@
+[![.github/workflows/ci-tests.yml](https://github.com/boris-dev24/exemple-jest-cuccumber/actions/workflows/ci-tests.yml/badge.svg)](https://github.com/boris-dev24/exemple-jest-cuccumber/actions/workflows/ci-tests.yml)
