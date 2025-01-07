@@ -1,33 +1,4 @@
-// // reduction.steps.js
 
-// const { Given, When, Then } = require('@cucumber/cucumber');
-// const assert = require('assert');
-// const { calculerReduction } = require('../../livraison');
-
-// let panier, isPremium, codePromo, montantFinal;
-
-// Given('un panier d’un montant de {string}', (montant) => {
-//   panier = parseFloat(montant);
-// });
-
-// Given('le client est membre premium', () => {
-//   isPremium = true;
-// });
-
-// Given('le client utilise le code promo {string}', (code) => {
-//   codePromo = code;
-// });
-
-// When('je calcule la réduction', () => {
-//   montantFinal = calculerReduction(panier, isPremium || false, codePromo || "");
-// });
-
-// Then('le montant final doit être {string}', (resultat) => {
-//   assert.strictEqual(montantFinal, parseFloat(resultat));
-// });
-
-
-// steps.js
 const { Given, When, Then } = require('@cucumber/cucumber');
 const { calculerFraisLivraison } = require('../../calculer');
 
